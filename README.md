@@ -10,3 +10,5 @@ There are two datasets:
 
 Both datasets contain measurements corresponding to ALL and AML samples from bone marrow and peripheral blood.
 
+## Acknowledgement
+This dataset originates from a study conducted by Goulb et al. (1999) in which they used said data to classify the type of cancer in each patient by variation in gene expression.
