@@ -15,5 +15,14 @@ Next to each column for each sample there was a column of a variable named "Call
 
 There is a third file called 'actual' that contains the actual type of leukemia each patient has. 
 
+## Model
+A random forest classifier was implemented using scikit-learn. 
+
+## Results
+The model's overall precision and accuracy were good, producing an F1 score of 0.78. Nevertheless, it became clear from examining the results for each class of leukemia that the model performed better in predicting whether patients had ALL than AML. This could be explained by the unequal distribution of the samples, where a much higher proportion of patients in the training group had ALL compared to AML. 
+
+## Conclusion
+This study demonstrates, like in Goulb et al. (1999), the feasibility of predicting leukemia types using gene expression data. It is imperative to recognise, however, that there is room for improvement in the idenification of AML patients. This could be accomplished by starting with a larger and more balanced sample of patients. Additionally, the accuracy this classification model may be considerably increased by applying the aforementioned adjustments, and fine-tuning the selection of features for the model.
+
 ## Acknowledgement
 This dataset originates from a study conducted by Goulb et al. (1999) in which they used said data to classify the type of cancer in each patient by variation in gene expression.
